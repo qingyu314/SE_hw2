@@ -32,7 +32,13 @@
 ## v-for循环创建组件
 
 类似python中的循环
-eg. `v-for:"item in items"`
+eg. 
+
+```vue
+v-for:"item in items"
+```
+
+
 
 ## $emit(expression)
 
@@ -56,3 +62,8 @@ hello = () => "Hello World!";
 
 用于对组件的id进行**软编码**，在相应的后缀后面自动地编号
 通常和v-for一起使用
+
+```bash
+npm install --save lodash.uniqueid
+```
+
